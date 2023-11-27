@@ -1,0 +1,89 @@
+body{
+    background-image: url("/Img/pnt.jpeg");
+    background-size: cover;
+    /*background-color:red;*/
+}
+nav{
+    color:white;
+    font-family: "Chalkboard SE", serif;
+    font-size:x-large;
+    font-weight:bold;
+}
+#id{
+    opacity:2%;
+}
+#result{
+}
+canvas.mapboxgl-canvas{
+    opacity:89%;
+
+    position:relative;
+}
+.card{
+    background-image:url("/Img/cantxt.jpeg");
+    margin-left:15px;
+    margin-right:15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-size: cover;
+    font-family:sans-serif;
+    font-size:large;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.43);
+}
+h1.city.card{
+    color: black;
+    /*background-image: url("/Img/moon.jpeg");*/
+    background-size: cover;
+    /*opacity:70%;*/
+    width: 95%;
+    left: -6px;
+    top: 7px;}
+
+img.card-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:3;
+    pointer-events: none;
+}
+
+a.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.card-background.pnt{
+    opacity: 35%;
+}
+.btn {
+    border-style: solid;
+    border-color: #ABA299;
+    background-color: #9FB1B4;
+
+    margin-left: 3px;
+
+}
+.btn:hover{
+   background-color: #678C9D;
+    border-color: #657E94;
+
+    color: white;
+}
+/*.btn-outline-success:hover{*/
+
+/*}*/
+/*.url {*/
+/*    cursor: url(myBall.cur),auto;*/
+/*}*/
+
+
+/*}*/
+/*#map{*/
+/*    top:0;*/
+/*    right:0;*/
+/*    bottom:0;*/
+/*    left:0;*/
+/*    position:absolute;*/
+/*}*/
